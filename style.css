@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
+header {
+}
+
+#navbar {
+}
+
+#aside {
+}
+
+#leftsection {
+}
+
+#nestedarticle {
+}
+
+#nestedp {
+}
