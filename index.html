@@ -14,26 +14,37 @@
         <p>header</p> 
     </header>
 
-    <section id="navbar">
+    <div id="navbar">
         <p>nav</p>
-    </section>
+    </div>
 
-    <section id="aside">
-        <p>aside</p>
-    </section>
-
-    <section id="leftsection">
+    <div id="leftsection">
         <p>section</p>
-        <article id="nestedarticle">
-            <h2>h1, h2, h3</h2>    
-            <p id="nestedp">p</p>
-        </article>    
-    </section>
+
+        <div class="clearfix">
+
+            <article id="nestedarticle">
+                <p>article</p>
+
+                <h3 id="nestedHeader">
+                    <p>h1, h2, h3</p>
+                </h3>  
+
+                <div id="nestedp">
+                    <p>p</p>
+                </div>
+                
+            </article>    
+        </div>
+    </div>
+
+    <div id="aside">
+        <p>aside</p>
+    </div>
 
     <footer>
         <p>footer</p>
     </footer>
 
 </body>
-
 </html>
